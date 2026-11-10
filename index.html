@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Project Day 13</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="badge">Web Application</div>
+      <h1>Web Project Day 13</h1>
+      <p class="desc">Progressive web application implementing modern CSS, responsive layouts, and interactive state.</p>
+      <div class="tech-pill">HTML5, CSS3, JavaScript</div>
+    </header>
+
+    <main class="content-grid">
+      <section class="card">
+        <h2>Features</h2>
+        <ul class="features-list">
+        <li><span>✓</span> Responsive UI</li>
+        <li><span>✓</span> Component-based layout</li>
+        <li><span>✓</span> Interactive DOM manipulation</li>
+        </ul>
+      </section>
+
+      <section class="card interactive-card">
+        <h2>Quick Notes &amp; Scratchpad</h2>
+        <p class="sub">Type your notes below. Autosaved locally.</p>
+        <textarea id="noteInput" placeholder="Write thoughts or test notes here..."></textarea>
+        <div class="note-actions">
+          <button id="clearNoteBtn" class="btn btn-secondary">Clear</button>
+          <span id="savedIndicator" class="saved-tag">Saved ✓</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Built by Arafat Jamil &bull; <a href="https://github.com/ArafatJamil254" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
